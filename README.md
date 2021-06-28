@@ -6,7 +6,7 @@ Automatic Speech Recognition (ASR) is a well researched field. The utilization o
 
 In the past few years, there has been significant work on developing speech recognition systems using HMMs for regional Indian languages. [In my work](https://github.com/Dibyendu1997/Bengali-digit-recognition-using-Hidden-Markov-Model/blob/main/Bengali%20Spoken%20Digit%20Classification_%20%20A%20Hidden%20Markov%20Model%20Approch.pdf) I use MFCC feature vectors and an acoustic HMM model to develop a recognition system for Bengali.
 ## DATASETS
-The Bengali digits dataset consists of audio files recorded in ‘.wav’ format. Each file contains the utterance of one Bengali digit from 0-9. The length of each file is approximately 1.5 second. A total of 600 samples are present with each digit having around 60 samples. The dataset can be accessed [here]
+The Bengali digits dataset consists of audio files recorded in ‘.wav’ format. Each file contains the utterance of one Bengali digit from 0-9. The length of each file is approximately 1.5 second. A total of 600 samples are present with each digit having around 60 samples. The dataset can be accessed [here](https://drive.google.com/drive/folders/1SjbwqcdW0JqHlrs08FsKfudFhHk7K6f7?usp=sharing)
 The digit-label-utterance mapping is given in the following table.
 
 Digit | Label | Utterance
@@ -22,14 +22,14 @@ Seven | 7 | Shat
 Eight| 8 | At
 Nine | 9 | Noy
 
-**Training Results**
+## **Training Results**
 
 We trained the model on 478 samples by shuffling the samples. The model was trained for 100 epochs.
 
 * Total number of train samples = 478
 * Accuracy = 95.5%
 
-**Testing Results**
+## **Testing Results**
 
 We trained the model on 478 samples by shuffling the samples. The model was trained for 100 epochs.
 
