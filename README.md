@@ -1,4 +1,12 @@
 # Bengali-digit-recognition-using-Hidden-Markov-Model
+<h1 align="center">
+  <img src="https://thumbs.dreamstime.com/b/voice-command-control-sound-waves-icon-man-head-silhouette-speaking-logo-vector-isolated-white-background-eps-193915616.jpg" width="15%">
+</h1>
+
+<h4 align="center">
+  🎙️ Spoken Digit Recognition with HMM
+</h4>
+
 ## INTRODUCTION
 The aim of this project is to implement automatic speech recognition algorithms using Hidden Markov Models (HMMs) for Bengali languages. We have self-recorded Bengali digits From all over the State.
 ## LITERATURE REVIEW
@@ -21,7 +29,14 @@ Six | 6 | Chhoy
 Seven | 7 | Shat
 Eight| 8 | At
 Nine | 9 | Noy
-
+## Code Requirements
+This code is written in python. To use it you will need:
+* python3
+* hmmlearn
+* librosa.feature
+* numpy
+* python_speech_features
+* random
 ## **Training Results**
 
 We trained the model on 478 samples by shuffling the samples. The model was trained for 100 epochs.
